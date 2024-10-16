@@ -1,5 +1,5 @@
 import './App.css';
-import Landing from "./components/Landing.jsx";
+import Landing from "./components/landing.jsx";
 import Notes from "./components/Notes.jsx";
 import Login from "./components/Login.jsx";
 import Signup from "./components/Signup.jsx";
