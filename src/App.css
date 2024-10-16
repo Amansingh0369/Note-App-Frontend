@@ -1,0 +1,791 @@
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.spinner {
+    margin-top: 25%;
+    margin-left: 45%;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 28px;
+    background-color: white;
+}
+
+
+#landing {
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    border-radius: 30px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+#landing-data {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    backdrop-filter: blur(15px);
+    border: solid 1px grey;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    height: 40vh;
+    width: 90vw;
+}
+
+#landing h1 {
+    font-size: 8rem;
+    color: black;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+#landing h1:hover {
+    transition: color 1s ease-out;
+    color: royalblue;
+}
+#landing h2 {
+    font-family: "Annai MN", "Apple SD Gothic Neo",sans-serif;
+    font-size: 20px;
+    color: royalblue;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+#button-section{
+    margin-top: 5vh;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#landing button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+}
+
+#landing button:hover {
+    background-color: limegreen;
+}
+#login{
+    background-color: white;
+    height: 100vh;
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+#login-data {
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    backdrop-filter: blur(15px); /* Increases blur intensity */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#login-data button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: royalblue;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#login-data button:hover {
+    background-color: limegreen;
+}
+
+#login-data input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    outline: none;
+}
+
+#login-data h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: royalblue;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#login-data p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#notHaveAcc {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+#signup {
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure this takes the full viewport height */
+    width: 100%;   /* Ensure it covers the full width of the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+#signup-data {
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px); /* Increases blur intensity */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#signup-data h1 {
+    font-size: 3.5rem;
+    color: royalblue;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#signup-data input {
+    justify-content: center;
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    outline: none;
+}
+
+#signup-data button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: royalblue;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#signup-data button:hover {
+    background-color: limegreen;
+}
+
+#signup-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #0C0C0C;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.notes-container div{
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    color: black;
+    border-radius: 30px;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(15px); /* Increases blur intensity */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+
+}
+.navbar h1{
+    margin-left: 45%;
+}
+
+.toggle-mode {
+    padding: 0.5rem 1rem;
+    background-color: var(--input-bg);
+    color: var(--input-color);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-color);
+    padding: 1rem;
+    font-size: 1.2rem;
+    overflow-y: auto;
+    font-family: "Annai MN", "Apple SD Gothic Neo",sans-serif;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 0 0 0 30px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+}
+
+.sidebar p {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--sidebar-color);
+    border-bottom: var(--sidebar-p) solid 1px;
+    scroll-behavior: smooth;
+    border-radius: 20px;
+    content: none;
+    width: 100%;
+}
+
+.sidebar p:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: var(--input-bg);
+    padding: 20px;
+    border-radius: 0 0  30px;
+}
+
+.title-input {
+    border-radius: 30px;
+    font-size: 2rem;
+    width: 97.05%;
+    height: 100px;
+    outline: none;
+    letter-spacing: 0.5vh;
+    border: none;
+    padding: 1rem;
+    background-color: var(--input-bg);
+    color: var(--input-color);
+    text-align: left;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.body-input {
+    background-color: var(--input-bg);
+    color: var(--input-color);
+    height: 470px;
+    width: 100%;
+    flex: 1;
+    letter-spacing: 0.25vh;
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 2rem;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-bottom: 40px;
+}
+
+#savebtn {
+    margin-left: auto;
+    width: 100px;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#savebtn:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    background-color: limegreen;
+}
+
+.add-note-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    width: 3vw;
+    height: 3vw;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+#sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+/* Light mode */
+.light {
+    --input-bg: white;
+    --input-color: black;
+    --sidebar-bg: whitesmoke;
+    --sidebar-color: black;
+    --sidebar-p: #333333;
+    background-color: #f8f9fa;
+    color: black;
+    transition: all 0.5s ease;
+}
+.add-note-button:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark mode */
+.dark {
+    --input-bg: #0C0C0C;
+    --input-color: white;
+    --sidebar-bg: #333333;
+    --sidebar-color: white;
+    --sidebar-p: black;
+    background-color: #1c1c1c;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.light .MuiInputBase-input {
+    padding: 1rem;
+}
+
+.dark .MuiInputBase-input {
+    color: white !important;
+    padding: 1rem;
+}
+
+/*smooth load*/
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+}
+.note-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.note-title.active{
+    background-color: rgba(138,138,138,0.71);
+}
+
+/* For the delete button */
+.delete-note-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add some hover effect */
+.delete-note-button:hover {
+    background-color: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #landing {
+        height: 90vh; /* Reduce height for smaller devices */
+        justify-content: center; /* Center the content */
+        background-size: cover;
+        background-position: center;
+    }
+
+    #landing-data {
+        height: 30vh; /* Adjust height to fit content */
+        width: 80vw; /* More screen width */
+    }
+
+    #landing h1 {
+        font-size: 5rem; /* Smaller font for tablets */
+    }
+
+    #landing h2 {
+        font-size: 18px; /* Adjust subtitle size */
+    }
+
+    #button-section {
+        width: 80%;
+        margin-top: 5vh;
+    }
+
+    #landing button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+    .sidebar {
+        width: 25%;
+    }
+    .main{
+        height: 100vh;
+        width: 100vw;
+    }
+    .content {
+        width: 100%;
+    }
+    .title-input {
+        font-size: 1.5rem;
+        height: 80px;
+    }
+    .body-input {
+        height: 350px;
+        padding: 1rem;
+    }
+    #savebtn {
+        width: 80px;
+        height: 35px;
+    }
+    .add-note-button {
+        margin-left: 30px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .sidebar-title {
+        font-size: 18px; /* Smaller font size for tablets */
+    }
+    #login {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px;
+        height: auto; /* Let the height adjust based on content */
+        justify-content: center; /* Center elements vertically */
+        background-size: cover; /* Make sure the image covers the screen */
+        background-position: center; /* Keep the image centered */
+        background-attachment: scroll; /* Remove fixed attachment for smoother scrolling */
+
+    }
+
+    #login-data {
+        width: 80vw; /* Take up most of the screen width */
+        height: auto; /* Let the height adjust */
+        margin: 0; /* Center the form */
+        padding: 20px;
+        backdrop-filter: blur(15px); /* Increases blur intensity */
+        background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    }
+
+    #login-data h1 {
+        font-size: 2.5rem; /* Adjust the font size */
+    }
+
+    #login-data input {
+        width: 100%; /* Make input fields full-width */
+        font-size: 1rem; /* Adjust the font size */
+    }
+
+    #login-data button {
+        width: 100%; /* Make the button full-width */
+        font-size: 1.1rem; /* Adjust the font size */
+    }
+
+    #notHaveAcc {
+        font-size: 0.9rem; /* Reduce text size */
+        margin-top: 10px; /* Add some margin */
+    }
+}
+
+@media (max-width: 480px) {
+    #landing {
+        height: 97vh;
+        width: 95vw;/* Adjust height for mobile */
+        padding: 10px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #landing-data {
+        height: auto; /* Let content dictate height */
+        width: 85vw; /* Use more of the screen */
+        padding: 15px; /* Slight padding adjustment */
+    }
+
+    #landing h1 {
+        font-size: 3rem; /* Much smaller font for mobile */
+        margin: 5px; /* Adjust margin */
+    }
+
+    #landing h2 {
+        font-size: 16px; /* Smaller subtitle */
+    }
+
+    #button-section {
+        width: 100%; /* Full width for buttons */
+        flex-direction: row; /* Stack buttons */
+        margin-top: 4vh; /* Adjust top margin */
+    }
+
+    #landing button {
+        width: 30%; /* Take up more space */
+        padding: 10px 20px; /* Smaller padding */
+        font-size: 0.9rem; /* Smaller font */
+        margin-bottom: 10px; /* Space between stacked buttons */
+    }
+    #login , #signup{
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px;
+        height: 95vh;
+        width: 90vw;/* Let the height adjust based on content */
+        justify-content: center; /* Center elements vertically */
+        background-size: cover; /* Make sure the image covers the screen */
+        background-position: center; /* Keep the image centered */
+        background-attachment: scroll; /* Remove fixed attachment for smoother scrolling */
+
+    }
+
+    #login-data,#signup-data {
+        width: 70vw; /* Take up most of the screen width */
+        height: auto; /* Let the height adjust */
+        margin: 0; /* Center the form */
+        padding: 20px;
+        backdrop-filter: blur(15px); /* Increases blur intensity */
+        background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    }
+
+    #login-data h1 ,#signup-data h1{
+        font-size: 2rem; /* Smaller title for smaller screens */
+    }
+
+    #login-data input ,#signup-data input {
+        width: 90%;
+        font-size: 0.8rem; /* Slightly smaller text for input */
+    }
+
+    #login-data button {
+        width: 40%;
+        font-size: 1rem; /* Adjust button text size */
+    }
+
+    #notHaveAcc {
+        font-size: 0.8rem; /* Further reduce the text size */
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navbar h1 {
+        font-size: 20px;
+        padding: 0;
+    }
+    #loading-spinner{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        height: 100vh;
+
+
+    }
+    #spinner{
+        margin-top: 60%;
+        height: 100vh;
+    }
+    .sidebar {
+        width: 25%;
+        padding: 15px;
+        margin-bottom: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 10%;
+        border-radius: 0 0 0 30px;
+    }
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+    .main {
+        flex-direction: row;
+        background-color: #0C0C0C;
+    }
+    .title-input {
+        font-size: 1.2rem;
+        height: 10%;
+        margin-bottom: 20%;
+    }
+    .body-input {
+        height: 70%;
+        padding: 0.5rem;
+    }
+    #savebtn {
+        width: 70px;
+        height: 30px;
+    }
+    .add-note-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        margin-left: 0px;
+        margin-top: 4px;
+        box-sizing: border-box;
+
+    }
+    .add-note-button:hover{
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    .sidebar p {
+        padding: 1rem;
+        font-size: 70%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title-input, .body-input {
+        padding: 0.8rem;
+    }
+    #sidebar-title {
+        font-size: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40px;
+    }
+    #sidebar-title h3{
+        font-size: 13px;
+    }
+}
+
