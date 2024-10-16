@@ -49,7 +49,7 @@ html,body {
     width: 100%;
     height: 100vh;
     align-items: center;
-    background-image: url("Landing.jpg");
+    background-image: url("assets/Landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ html,body {
 #login{
     background-color: white;
     height: 100vh;
-    background-image: url("Landing.jpg");
+    background-image: url("assets/Landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ html,body {
     text-decoration: underline;
 }
 #signup {
-    background-image: url("Landing.jpg");
+    background-image: url("assets/Landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ html,body {
     background-color: #0C0C0C;
     font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
-    background-image: url("Landing.jpg");
+    background-image: url("assets/Landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
