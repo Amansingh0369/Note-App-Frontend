@@ -12,10 +12,8 @@ const BackgroundMusic = () => {
             }
         };
 
-        // Add an event listener for user interaction
         window.addEventListener('click', playAudio);
 
-        // Cleanup the event listener
         return () => {
             window.removeEventListener('click', playAudio);
         };

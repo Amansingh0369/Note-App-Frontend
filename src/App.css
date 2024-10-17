@@ -718,8 +718,8 @@ html,body {
         height: 100vh;
     }
     .sidebar {
-        width: 25%;
-        padding: 15px;
+        width: 35%;
+        padding: 10px;
         margin-bottom: 20px;
         height: 100vh;
         display: flex;
@@ -754,34 +754,65 @@ html,body {
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        height: 40px;
-        width: 40px;
-        margin-left: 0px;
-        margin-top: 4px;
-        box-sizing: border-box;
-
+        height: 50px;
+        width: 50px;
+        border-radius: 50%; /* Keep the add button round */
+        background-color: #4CAF50; /* Green background */
+        color: white;
+        font-size: 24px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     }
     .add-note-button:hover{
         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     }
     .sidebar p {
-        padding: 1rem;
-        font-size: 70%;
+        padding: 0.4rem; /* Adjust padding for a rectangular look */
+        font-size: 0.6rem; /* Adjust the font size for better readability */
         align-items: center;
-        justify-content: center;
+        justify-content: space-between; /* Space between note text and delete button */
         display: flex;
-        flex-wrap: wrap;
+        width: 10%; /* Make sure the note takes full sidebar width */
+        background-color: var(--sidebar-bg); /* Add a light background for note clarity */
+        border-radius: 8px; /* Smooth rounded corners */
+        margin-bottom: 1rem; /* Space between notes */
+        cursor: pointer; /* Add pointer cursor to indicate clickable notes */
+    }
+    .note-title {
+        flex-grow: 1; /* Take up remaining space for note title */
+        text-align: left; /* Align note text to the left */
+        font-size: 2px;
+        padding: 1%;
+    }
+    .delete-note-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+    .note-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--sidebar-bg); /* Dark background for notes */
+        border-radius: 10px; /* Rounded corners */
+        margin-bottom: 1px;
+        padding: 1px;
+        height: auto; /* Let the note box adjust its height */
     }
     .title-input, .body-input {
         padding: 0.8rem;
     }
     #sidebar-title {
-        font-size: 80%;
+        font-size: 20%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        width: 40px;
+        width: 10px;
+    }
+    #delete-note-button{
+        width: 2px;
+        height: 1px;
     }
     #sidebar-title h3{
         font-size: 13px;
