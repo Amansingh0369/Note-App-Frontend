@@ -1,8 +1,54 @@
-# React + Vite
+# NOTIFY - Note Taking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo](path/to/logo.png) <!-- Add a logo if you have one -->
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
+NOTIFY is a user-friendly note-taking application that allows users to create, manage, and organize their notes efficiently. The app supports a dark/light mode toggle, enhancing usability in various lighting conditions.
+
+## Features
+- **Create, Edit, and Delete Notes:** Easily manage your notes.
+- **Dark/Light Mode:** Switch between themes for better readability.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **User Authentication:** Secure signup and login process.
+
+## Tech Stack
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **Version Control:** Git, GitHub
+
+## Installation
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Amansingh0369/Note-App-Frontend.git
+Usage
+
+Once the app is running, you can:
+
+Sign up or log in to your account.
+Create new notes and organize them.
+Toggle between dark and light modes for comfort.
+
+##Screenshots
+![Home Screen](images/Screenshot 2024-10-17 at 6.09.17 AM.png)
+
+##Contact
+
+For any questions or suggestions, feel free to reach out:
+
+Email: singh0369aman@gmail.com
+GitHub: Amansingh0369
+LinkedIn: aman-singh-01663b231
+
