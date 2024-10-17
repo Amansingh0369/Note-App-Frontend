@@ -1,6 +1,6 @@
 # NOTIFY - Note Taking App
 
-![Logo](./images/Screenshot%202024-10-17%20at%206.09.17%20AM.png) <!-- Replaced with your image -->
+![Logo](../images/Screenshot%202024-10-17%20at%206.09.17%20AM.png) <!-- Replaced with your image -->
 
 ## Table of Contents
 - [Introduction](#introduction)
