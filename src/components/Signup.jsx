@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import "./App.css"; // Assuming the spinner CSS is in App.css
 
 function Signup() {
     const navigate = useNavigate();
