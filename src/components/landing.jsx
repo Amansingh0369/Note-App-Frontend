@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import {Alert, AlertTitle, Button} from "@mui/material";
 
 function Landing() {
     const navigate = useNavigate();
