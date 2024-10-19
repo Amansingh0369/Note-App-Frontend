@@ -1,4 +1,4 @@
-# Notify - Note Taking App (Frontend)
+# Note~iT - Note Taking App (Frontend)
 ### Notes Page
 ![Notes Page](./images/main_page.png)
 
@@ -19,7 +19,7 @@ Check out the live version of the app: [Notify App](https://note-app-frontend-be
 ## Tech Stack
 
 - **Frontend**: ReactJS, JavaScript, Tailwind CSS, Material UI (for components like input fields)
-- **Backend**: [Notify Backend](https://github.com/Amansingh0369/Note-App.git) (built with Node.js, Express, and MongoDB)
+- **Backend**: [Note~iT Backend](https://github.com/Amansingh0369/Note-App.git) (built with Node.js, Express, and MongoDB)
 - **Authentication**: JWT (JSON Web Tokens) for secure login and signup.
 
 ## Installation
