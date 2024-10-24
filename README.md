@@ -2,11 +2,11 @@
 ### Notes Page
 ![Notes Page](./images/main_page.png)
 
-This is the **frontend** part of the **Notify** note-taking application. The app allows users to create, update, delete, and manage their notes with a simple and user-friendly interface. The app features both **dark** and **light** mode toggles for enhanced user experience, and integrates a responsive design for various screen sizes.
+This is the **frontend** part of the **Note~iT** note-taking application. The app allows users to create, update, delete, and manage their notes with a simple and user-friendly interface. The app features both **dark** and **light** mode toggles for enhanced user experience, and integrates a responsive design for various screen sizes.
 
 ## Live Demo
 
-Check out the live version of the app: [Notify App](https://note-app-frontend-beta.vercel.app/)
+Check out the live version of the app: [Note~iT App](https://note-app-frontend-beta.vercel.app/)
 
 ## Features
 
