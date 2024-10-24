@@ -12,7 +12,6 @@ function App() {
 
     return (
         <>
-            <BackgroundMusic />
             <TransitionGroup>
                 <CSSTransition
                     key={location.key}
