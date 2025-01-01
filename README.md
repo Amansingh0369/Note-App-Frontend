@@ -6,7 +6,7 @@ This is the **frontend** part of the **Note~iT** note-taking application. The ap
 
 ## Live Demo
 
-Check out the live version of the app: [Note~iT App](https://note-app-frontend-beta.vercel.app/)
+Check out the live version of the app: [Note~iT App](https://note-app.amansingh0369.me)
 
 ## Features
 
